@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Support ChangeMakers' mission by donating today. Your contribution helps fund our community outreach, education, and health programs.">
+  <title>Donate | ChangeMakers</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./bootstrap-dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./fontawesome-pro/css/all.min.css">
+  <!-- Animate on Scroll -->
+  <link rel="stylesheet" href="./animate-on-scroll/dist/aos.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/enhanced-style.css">
+ </head>
+ <body>
+  <!-- Navigation -->
+  <header>
+   <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+    <div class="container">
+     <a class="navbar-brand" href="./index.html">ChangeMakers</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+       <li class="nav-item">
+        <a class="nav-link" href="./index.html">Home</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="./about.html">About</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="./programs.html">Programs</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./donate.html">Donate</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="./volunteer.html">Volunteer</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="./blog.html">Blog</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="./events.html">Events</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact</a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <main>
+   <!-- Donate Hero Section -->
+   <section class="section bg-light">
+    <div class="container">
+     <div class="row align-items-center">
+      <div class="col-lg-6" data-aos="fade-right">
+       <h1 class="mb-4">Support Our Mission</h1>
+       <p class="lead">Your generosity fuels our work. Every dollar you give helps us provide food, education, and healthcare to those who need it most.</p>
+       <p>When you donate to ChangeMakers, you become part of a global movement dedicated to creating positive change in communities that need it most.</p>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+       <img src="https://source.unsplash.com/random/600x400/?charity" alt="Charity Work" class="img-fluid rounded-3 shadow">
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- Donation Options Section -->
+   <section class="section">
+    <div class="container">
+     <h2 class="section-title text-center mb-5" data-aos="fade-up">Ways to Give</h2>
+     <div class="row">
+      <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+       <div class="donation-option h-100">
+        <div class="text-center mb-4">
+         <i class="fas fa-hand-holding-heart donation-icon"></i>
+        </div>
+        <h3 class="text-center">One-Time Donation</h3>
+        <p>Make an immediate impact with a one-time gift. Your donation will be directed to our most urgent needs or to a program of your choice.</p>
+        <div class="text-center mt-4">
+         <a href="./#donation-form" class="btn btn-primary-custom">Donate Now</a>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+       <div class="donation-option h-100">
+        <div class="text-center mb-4">
+         <i class="fas fa-sync-alt donation-icon"></i>
+        </div>
+        <h3 class="text-center">Monthly Giving</h3>
+        <p>Join our community of monthly donors and provide sustainable support that helps us plan for the future and expand our programs.</p>
+        <div class="text-center mt-4">
+         <a href="./#donation-form" class="btn btn-primary-custom">Become a Monthly Donor</a>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+       <div class="donation-option h-100">
+        <div class="text-center mb-4">
+         <i class="fas fa-gift donation-icon"></i>
+        </div>
+        <h3 class="text-center">Legacy Giving</h3>
+        <p>Create a lasting impact by including ChangeMakers in your estate planning. Your legacy will continue to transform lives for generations.</p>
+        <div class="text-center mt-4">
+         <a href="./contact.html" class="btn btn-primary-custom">Learn More</a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- Donation Form Section -->
+   <section id="donation-form" class="section bg-light">
+    <div class="container">
+     <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up">
+       <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white text-center py-4">
+         <h2 class="mb-0">Secure Online Donation</h2>
+        </div>
+        <div class="card-body p-5">
+         <form id="secure-donation-form">
+          <div class="row">
+           <div class="col-md-6 mb-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" required>
+           </div>
+           <div class="col-md-6 mb-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required>
+           </div>
+          </div>
+          <div class="mb-3">
+           <label for="email" class="form-label">Email Address</label>
+           <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-4">
+           <label class="form-label">Donation Amount</label>
+           <div class="donation-amount-buttons d-flex flex-wrap gap-2 mb-3">
+            <input type="radio" class="btn-check" name="donationAmount" id="amount25" value="25" autocomplete="off">
+            <label class="btn btn-outline-primary" for="amount25">$25</label>
+            
+            <input type="radio" class="btn-check" name="donationAmount" id="amount50" value="50" autocomplete="off">
+            <label class="btn btn-outline-primary" for="amount50">$50</label>
+            
+            <input type="radio" class="btn-check" name="donationAmount" id="amount100" value="100" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="amount100">$100</label>
+            
+            <input type="radio" class="btn-check" name="donationAmount" id="amount250" value="250" autocomplete="off">
+            <label class="btn btn-outline-primary" for="amount250">$250</label>
+            
+            <input type="radio" class="btn-check" name="donationAmount" id="amountCustom" value="custom" autocomplete="off">
+            <label class="btn btn-outline-primary" for="amountCustom">Custom</label>
+           </div>
+           <div id="customAmountContainer" class="mb-3" style="display: none;">
+            <label for="customAmount" class="form-label">Enter Custom Amount</label>
+            <div class="input-group">
+             <span class="input-group-text">$</span>
+             <input type="number" class="form-control" id="customAmount" min="1" step="1">
+            </div>
+           </div>
+          </div>
+          <div class="mb-4">
+           <label class="form-label">Donation Frequency</label>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="donationFrequency" id="oneTime" value="oneTime" checked>
+            <label class="form-check-label" for="oneTime">One-time donation</label>
+           </div>
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="donationFrequency" id="monthly" value="monthly">
+            <label class="form-check-label" for="monthly">Monthly donation</label>
+           </div>
+          </div>
+          <div class="mb-4">
+           <label class="form-label">Designate Your Gift</label>
+           <select class="form-select" id="giftDesignation">
+            <option value="whereNeededMost">Where Needed Most</option>
+            <option value="communityOutreach">Community Outreach</option>
+            <option value="educationInitiatives">Education Initiatives</option>
+            <option value="healthServices">Health Services</option>
+           </select>
+          </div>
+          <div class="mb-4">
+           <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="coverFees">
+            <label class="form-check-label" for="coverFees">Cover transaction fees (3%) so 100% of my donation goes to ChangeMakers</label>
+           </div>
+          </div>
+          <div class="d-grid">
+           <button type="submit" class="btn btn-primary-custom btn-lg"><i class="fas fa-heart me-2"></i>Complete Donation</button>
+          </div>
+          <div class="text-center mt-4">
+           <p class="mb-0"><i class="fas fa-lock me-2"></i>Your donation is secure. We never store your payment information.</p>
+          </div>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- Impact Stories Section -->
+   <section class="section">
+    <div class="container">
+     <h2 class="section-title text-center mb-5" data-aos="fade-up">Your Impact Stories</h2>
+     <div class="row">
+      <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+       <div class="impact-story h-100">
+        <img src="https://source.unsplash.com/random/400x300/?water" alt="Clean Water" class="img-fluid rounded mb-4">
+        <h3>Hope Restored</h3>
+        <p>Thanks to your donations, we provided clean water to 500 families in rural areas, reducing waterborne diseases by 60%. Children no longer have to walk miles for water and can attend school regularly.</p>
+        <div class="text-end fst-italic mt-3">
+         <p>- Clean Water Initiative, Kenya</p>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+       <div class="impact-story h-100">
+        <img src="https://source.unsplash.com/random/400x300/?school" alt="Education" class="img-fluid rounded mb-4">
+        <h3>Education for All</h3>
+        <p>Over 200 children enrolled in our new learning center, with 95% showing improved literacy and numeracy skills. Your support has given these children the opportunity to break the cycle of poverty through education.</p>
+        <div class="text-end fst-italic mt-3">
+         <p>- Learning Center, Guatemala</p>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+       <div class="impact-story h-100">
+        <img src="https://source.unsplash.com/random/400x300/?healthcare" alt="Healthcare" class="img-fluid rounded mb-4">
+        <h3>Healthy Communities</h3>
+        <p>Our vaccination drives have protected over 1,000 children from preventable diseases. Community health workers trained through your donations now provide ongoing care to families who previously had no access to healthcare.</p>
+        <div class="text-end fst-italic mt-3">
+         <p>- Health Initiative, Bangladesh</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- Donation FAQ Section -->
+   <section class="section bg-light">
+    <div class="container">
+     <h2 class="section-title text-center mb-5" data-aos="fade-up">Frequently Asked Questions</h2>
+     <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up">
+       <div class="accordion" id="donationFAQ">
+        <div class="accordion-item">
+         <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           Is my donation tax-deductible?
+          </button>
+         </h2>
+         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#donationFAQ">
+          <div class="accordion-body">
+           Yes, ChangeMakers is a registered 501(c)(3) nonprofit organization. Your donation is tax-deductible to the extent allowed by law. You will receive a tax receipt for your records.
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+           How is my donation used?
+          </button>
+         </h2>
+         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#donationFAQ">
+          <div class="accordion-body">
+           We are committed to transparency and responsible stewardship. 85% of every donation goes directly to our programs, 10% to administrative costs, and 5% to fundraising efforts. Our annual reports provide detailed financial information.
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           Can I donate to a specific program?
+          </button>
+         </h2>
+         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#donationFAQ">
+          <div class="accordion-body">
+           Yes, you can designate your gift to support a specific program by selecting your preference in the donation form. If you'd like to support a specific project not listed, please contact us directly.
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+           Is my payment information secure?
+          </button>
+         </h2>
+         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#donationFAQ">
+          <div class="accordion-body">
+           Absolutely. We use industry-standard encryption and security protocols to protect your personal and financial information. We never store your payment details on our servers.
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- Call to Action -->
+   <section class="section bg-primary text-white text-center">
+    <div class="container">
+     <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up">
+       <h2>Every Donation Makes a Difference</h2>
+       <p class="lead mb-4">Your support changes lives. Every contribution counts! Join us in building a brighter future for all.</p>
+       <a href="./#donation-form" class="btn btn-light btn-lg"><i class="fas fa-heart me-2"></i>Donate Now</a>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <h5>ChangeMakers</h5>
+      <p>Creating positive, lasting change by addressing critical needs and fostering hope in every community we serve.</p>
+      <div class="social-icons">
+       <a href="./#"><i class="fab fa-facebook"></i></a>
+       <a href="./#"><i class="fab fa-twitter"></i></a>
+       <a href="./#"><i class="fab fa-instagram"></i></a>
+       <a href="./#"><i class="fab fa-linkedin"></i></a>
+      </div>
+     </div>
+     <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <h5>Quick Links</h5>
+      <ul class="footer-links">
+       <li><a href="./about.html">About Us</a></li>
+       <li><a href="./programs.html">Our Programs</a></li>
+       <li><a href="./donate.html">Donate</a></li>
+       <li><a href="./volunteer.html">Volunteer</a></li>
+      </ul>
+     </div>
+     <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <h5>Resources</h5>
+      <ul class="footer-links">
+       <li><a href="./blog.html">Blog</a></li>
+       <li><a href="./events.html">Events</a></li>
+       <li><a href="./#">Annual Reports</a></li>
+       <li><a href="./#">Privacy Policy</a></li>
+      </ul>
+     </div>
+     <div class="col-lg-3 col-md-6">
+      <h5>Contact Us</h5>
+      <ul class="footer-links">
+       <li><i class="fas fa-map-marker-alt me-2"></i> 123 Hope Street, City, Country</li>
+       <li><i class="fas fa-phone me-2"></i> (123) 456-7890</li>
+       <li><i class="fas fa-envelope me-2"></i> info@changemakers.org</li>
+      </ul>
+     </div>
+    </div>
+    <div class="footer-bottom text-center">
+     <p>&copy; 2025 ChangeMakers. All rights reserved.</p>
+    </div>
+   </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="./#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="./bootstrap-dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Animate on Scroll -->
+  <script src="./animate-on-scroll/dist/aos.js"></script>
+  <!-- Alpine.js -->
+  <script src="./alpine-js/packages/alpinejs/dist/cdn.min.js" defer></script>
+  <!-- Custom JavaScript -->
+  <script src="./js/enhanced-main.js"></script>
+ </body>
+</html>
