@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="text-center py-5">
           <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
           <h3 class="mt-4">Application Submitted!</h3>
-          <p class="lead">Thank you for your interest in volunteering with ChangeMakers.</p>
+          <p class="lead">Thank you for your interest in volunteering with NAGABA Association.</p>
           <p>We've received your application and will contact you at ${email} within 3-5 business days to discuss next steps.</p>
           <div class="mt-4">
             <a href="volunteer.html" class="btn btn-primary-custom">Back to Volunteer Page</a>
