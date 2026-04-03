@@ -1,11 +1,6 @@
 /* Enhanced Style for NGO Website - Incorporating Bootstrap and custom styling */
 
-/* Import Bootstrap CSS */
-@import url('../bootstrap-dist/css/bootstrap.min.css');
-/* Import Animate on Scroll */
-@import url('../animate-on-scroll/dist/aos.css');
-/* Import Font Awesome */
-@import url('../fontawesome-pro/css/all.min.css');
+/* Bootstrap, AOS, and Font Awesome are loaded via CDN in HTML <head> */
 /* Import Google Fonts - Roboto and Open Sans */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
